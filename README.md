@@ -5,13 +5,16 @@ SerialMQ, connection between openFrameworks, Max/MSP &lt;----> Arduino
 2. In the /External folder, there is wrapper for Arduino and Max/MSP. Each has their own README that explain how to use the code.
 
 # Usage
+The `ofYJArduinoSerial` object will maintain a `std::map` which store the received *command* and *message* as *key* and *value* respectively.
+
 Assuming the data sent from Arduino is something like
+
 ```
 cmd0 message1
 cmd1 message2
 ```
 commands are separated by newline character (\n)
-command and message are seperated by space (currently not change able, will add the feature in next update)
+command and message are seperated by space (currently not changeable, will add the feature in next update)
 
 1. Use `setConnectId()` to set serial port (Default: 0)
 2. Use `setBaudRate()` to set baud rate (Default: 9600)
