@@ -6,7 +6,7 @@ Put the files under /lib in Arduino Libraries folder and it should work.
 Please install StandardCplusplus (https://github.com/maniacbug/StandardCplusplus) first.
 
 #USAGE
-The SerialMQ object will maintain a `std::map` which store the received *command* and *message* as *key* and *value* respectively.
+The `SerialMQ` object will maintain a `std::map` which store the received *command* and *message* as *key* and *value* respectively.
 
 Assuming the data sent from Arduino is something like
 
