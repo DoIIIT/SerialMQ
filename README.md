@@ -12,6 +12,7 @@ cmd1 message2
 ```
 commands are separated by newline character (\n)
 command and message are seperated by space (currently not change able, will add the feature in next update)
+
 1. Use `setConnectId()` to set serial port (Default: 0)
 2. Use `setBaudRate()` to set baud rate (Default: 9600)
 3. Use `setReceivedMsgSep()` to set delimiter for received message (Default: '\n');
