@@ -1,3 +1,3 @@
 #Usage
 
-Please look the comment in the max patch
+Please read the comment in the max patch
