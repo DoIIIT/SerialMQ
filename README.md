@@ -22,3 +22,8 @@ command and message are seperated by space (currently not change able, will add 
 7. Use `sendMsg(std::string msg)` to send message to Arduino
 
 The example code is locate in /src
+
+
+#TODO
+1. Add features for changing delimiter to separate command and message
+2. Add protection to prevent counter from overflow.
