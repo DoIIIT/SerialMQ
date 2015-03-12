@@ -1,8 +1,8 @@
 # SerialMQ
 SerialMQ, connection between openFrameworks, Max/MSP &lt;----> Arduino
 
-1. This repo is a openFramewors wrapper for serial communication with Arduino
-2. In the /External folder, there is wrapper for Arduino and Max/MSP. Each has their own README that explain how to use the code.
+1. In `/Of` folder is a openFramewors wrapper for serial communication with Arduino
+2. In the `Arduino` and `MaxPatch` folder, there are wrappers for Arduino and Max/MSP correspondingly. Each has it own README that explain how to use the code.
 
 # Usage
 The `ofYJArduinoSerial` object will maintain a `std::map` which store the received *command* and *message* as *key* and *value* respectively.
